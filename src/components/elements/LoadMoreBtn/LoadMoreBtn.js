@@ -1,7 +1,7 @@
 import React from 'react';
 import './LoadMoreBtn.css';
 
-const MovieThumb = (props) => {
+const LoadMoreBtn = (props) => {
     return (
         <div>
             Load More
