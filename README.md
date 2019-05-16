@@ -1,4 +1,4 @@
-##This project is not yet completed
+This project is not yet completed
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
