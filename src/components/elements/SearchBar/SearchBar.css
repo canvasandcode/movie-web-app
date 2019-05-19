@@ -1,4 +1,4 @@
-.tmdb-searchbar {
+.searchbar {
   width: 100%;
   height: 105px;
   background: #1c1c1c;
@@ -8,7 +8,7 @@
   color: #fff;
 }
 
-.tmdb-searchbar-content {
+.searchbar-content {
   max-width: 1280px;
   width: 100%;
   height: 55px;
@@ -19,14 +19,14 @@
   color: #fff;
 }
 
-.tmdb-fa-search {
+.fa-search {
   position: absolute;
   left: 20px;
   top: 12px;
   color: #fff;
 }
 
-.tmdb-searchbar-input {
+.searchbar-input {
   font-family: 'Abel', sans-serif;
   font-size: 38px;
   position: absolute;
@@ -36,14 +36,15 @@
   background: transparent;
   height: 40px;
   color: #fff;
+  width: 100%
 }
 
-.tmdb-searchbar-input:focus {
+.searchbar-input:focus {
   outline: none;
 }
 
 @media screen and (max-width: 720px) {
-  .tmdb-searchbar-input {
+  .searchbar-input {
     font-size: 28px;
     color: #fff;
   }

@@ -1,16 +1,16 @@
-.tmdb-grid h1 {
+.grid h1 {
   font-family: 'Abel', sans-serif;
   font-size:42px;
 }
 
-.tmdb-grid-content {
+.grid-content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 40px;
   grid-row-gap: 40px;
 }
 
-.tmdb-grid-element {
+.grid-element {
   background: #353535;
   max-height: 430px;
   animation: animateGrid 0.5s;
@@ -27,15 +27,15 @@
 }
 
 @media screen and (max-width: 720px) {
-  .tmdb-grid-content {
+  .grid-content {
     grid-template-columns: auto auto;
   }
 
-  .tmdb-grid-element:nth-child(2n+2) {
+  .grid-element:nth-child(2n+2) {
     margin-right: 0;
   }
 
-  .tmdb-grid h1 {
+  .grid h1 {
     font-size:22px;
   }
 }

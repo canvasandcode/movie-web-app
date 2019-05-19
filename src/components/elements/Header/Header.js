@@ -2,13 +2,13 @@ import React from 'react';
 import './Header.css';
 
 const Header = () => {
-    return (
-        <div className="tmdb-header">
-            <div className ="tmdb-header-content">
-                <img className="tmdb-tmdb-logo" src="./images/tmdb_logo_wide.svg" alt="tmdb logo"/>
-            </div>
-        </div>
-    )
+  return (
+    <div className="header">
+      <div className="header-content">
+        <img className="logo" src="./images/tmdb_logo.png" alt="logo" />
+      </div>
+    </div>
+  )
 }
 
 export default Header;

@@ -1,4 +1,4 @@
-.tmdb-loadmorebtn {
+.loadmorebtn {
   background: #16d47b;
   width: 100%;
   min-height: 50px;
@@ -8,12 +8,12 @@
   transition: all 0.3s;
 }
 
-.tmdb-loadmorebtn p {
+.loadmorebtn p {
   font-family: 'Abel', sans-serif;
   font-size:42px;
   padding: 20px;
 }
 
-.tmdb-loadmorebtn:hover {
+.loadmorebtn:hover {
   opacity: 0.8;
 }

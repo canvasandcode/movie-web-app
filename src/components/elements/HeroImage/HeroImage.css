@@ -1,4 +1,4 @@
-.tmdb-heroimage {
+.heroimage {
   background-size: 100%, cover !important;
   background-position: center, center !important;
   width: 100%;
@@ -16,13 +16,13 @@
   }
 }
 
-.tmdb-heroimage-content {
+.heroimage-content {
   max-width: 1280px;
   padding: 20px;
   margin: 0 auto;
 }
 
-.tmdb-heroimage-text {
+.heroimage-text {
   z-index: 100;
   max-width: 700px;
   position: absolute;
@@ -33,13 +33,13 @@
   color: #fff;
 }
 
-.tmdb-heroimage-text h1 {
+.heroimage-text h1 {
   font-family: 'Abel', sans-serif;
   font-size:48px;
   color: #fff;
 }
 
-.tmdb-heroimage-text p {
+.heroimage-text p {
   font-family: 'Abel', sans-serif;
   font-size: 22px;
   line-height: 26px;
@@ -47,16 +47,16 @@
 }
 
 @media screen and (max-width: 720px) {
-  .tmdb-heroimage-text {
+  .heroimage-text {
     max-width: 100%;
   }
 
-  .tmdb-heroimage-text h1 {
+  .heroimage-text h1 {
     font-size: 38px;
     color: #fff;
   }
 
-  .tmdb-heroimage-text p {
+  .heroimage-text p {
     font-size: 16px;
     line-height: 20px;
     color: #fff;

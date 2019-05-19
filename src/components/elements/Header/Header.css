@@ -1,4 +1,4 @@
-.tmdb-header {
+.header {
   width: 100%;
   height: auto;
   background: #1c1c1c;
@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-.tmdb-header-content {
+.header-content {
   max-width: 1280px;
   min-height: 120px;
   height: auto;
@@ -16,31 +16,31 @@
   overflow: hidden;
 }
 
-.tmdb-logo {
+.logo {
   width: 300px;
   margin-top: 20px;
   float: left;
 }
 
-.tmdb-tmdb-logo {
+.logo {
   width: 122px;
   margin-top: 25px;
   float: right;
 }
 
 @media screen and (max-width: 500px) {
-  .tmdb-header-content {
+  .header-content {
     max-width: 1280px;
     min-height: 0px;
   }
 
-  .tmdb-tmdb-logo {
+  .logo {
     display: inline-block;
     width:80px;
     margin-top: 0px;
   }
 
-  .tmdb-logo {
+  .logo {
     width: 150px;
     margin-top: 5px;
   }
