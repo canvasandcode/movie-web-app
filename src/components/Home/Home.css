@@ -1,6 +1,8 @@
-body {
+.overflow-hide {
+  width: 100%;
   overflow-x: hidden
 }
+
 
 .home {
   margin-bottom: 100px;

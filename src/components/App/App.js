@@ -6,7 +6,7 @@ const App = () => {
   //every component in React needs to return something
   return (
     //Wrap in 1 element, or React Fragments
-    <div>
+    <div className="overflow-hide">
       <Header />
       <Home />
     </div>
