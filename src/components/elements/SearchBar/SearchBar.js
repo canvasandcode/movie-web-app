@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+
 import FontAwesome from 'react-fontawesome';
 import './SearchBar.css'
+
+var scrollToElement = require('scroll-to-element');
 
 class SearchBar extends Component {
   state = {
@@ -13,7 +16,12 @@ class SearchBar extends Component {
     //use user input as value for state
     this.setState({ value: event.target.value })
     clearTimeout(this.timeout);
-    
+    //scroll to grid of movies when a search is made 
+    scrollToElement('.home-grid', {
+      offset: -120,
+      ease: 'out-bounce',
+      duration: 1000
+    });
     this.timeout = setTimeout( () => {
       this.props.callback(this.state.value);
     }, 0); //delay, kept as 0 to appear faster
