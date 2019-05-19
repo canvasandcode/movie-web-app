@@ -1,15 +1,15 @@
-.rmdb-actor {
+.tmdb-actor {
   box-sizing: border-box;
 }
 
-.rmdb-actor img {
+.tmdb-actor img {
   width: 40%;
   height: auto;
   float: left;
   box-sizing: border-box;
 }
 
-.rmdb-actor-name {
+.tmdb-actor-name {
   font-family: 'Abel', sans-serif;
   font-size: 22px;
   color:#fff;
@@ -19,7 +19,7 @@
   box-sizing: border-box;
 }
 
-.rmdb-actor-character {
+.tmdb-actor-character {
   font-family: 'Abel', sans-serif;
   font-size: 18px;
   color:#fff;

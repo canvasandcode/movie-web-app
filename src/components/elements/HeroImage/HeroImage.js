@@ -3,7 +3,7 @@ import './HeroImage.css';
 
 const HeroImage = (props) => {
     return (
-        <div>
+        <div className="tmdb-heroImage">
             HeroImage
         </div>
     )

@@ -1,4 +1,4 @@
-.rmdb-movieinfobar {
+.tmdb-movieinfobar {
   width: 100%;
   height: 105px;
   background: #1c1c1c;
@@ -9,21 +9,21 @@
   font-size: 22px;
 }
 
-.rmdb-movieinfobar-content {
+.tmdb-movieinfobar-content {
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
   color: #fff;
 }
 
-.rmdb-movieinfobar-content-col {
+.tmdb-movieinfobar-content-col {
   float: left;
   width: 33.33%;
   box-sizing: border-box;
   padding: 10px 20px 0 0;
 }
 
-.rmdb-movieinfobar-info {
+.tmdb-movieinfobar-info {
   padding: 5px 0 0 10px;
   float: left;
 }

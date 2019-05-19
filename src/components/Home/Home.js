@@ -59,7 +59,7 @@ class Home extends Component {
 
     render() {
         return (
-            <div className="rmdb-home">
+            <div className="tmdb-home">
                 <HeroImage/>
                 <SearchBar/>
                 <FourColGrid/>
